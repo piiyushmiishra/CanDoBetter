@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CanDoBetter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet"  href="css/lightslider.css"/>
+    
+    
+    
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/lightslider.js"></script>  
+  <script>
+      $(document).ready(function() {
+     $("#content-slider").lightSlider({
+               loop:true,
+               keyPress:true
+           });
+           $('#image-gallery').lightSlider({
+               gallery:true,
+               item:1,
+               thumbItem:9,
+               slideMargin: 0,
+               speed:500,
+               auto:true,
+               loop:true,
+               pager:false,
+               onSliderLoad: function() {
+                   $('#image-gallery').removeClass('cS-hidden');
+               }  
+           });
+   });
+   </script>  
+  </head>
+  <body>
+    
+    <div class="topSlot">
+    	<div class="container">
+        	<div class="welcomeBar">
+            	<h4>Welcome User!</h4>
+                
+                <div class="rightBar col-lg-5 col-sm-6">
+                	<button class="fb-btn" type="button"><i class="fa-brands fa-facebook-f top"></i><span>Facebook Login</span></button>
+                    
+                    <ul>
+                    	<li>User Login</li>
+                        <li>New User Signup</li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+           </div>
+    </div>
+    
+    <div class="headerSlot">
+        <div class="container">
+                <div class="mainHeader">
+                       <a href="#" class="logo"> 
+                       	<img src="images/logo.png" class="LOGO">
+                       </a>
+                        
+                        <div class="menuGLOBE">
+                        
+                        	<nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: static;">
+                                  <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+										<div class="taskbar">
+                                              <ul>
+                                                <li><a href="#">HOME</a></li>
+                                                <li><a href="#">Horoscope</a></li>
+                                                <li><a href="#">Most Voted For</a></li>                    
+                                                <li class="active"><a href="#"> Meet People </a></li>
+                                                <li><a href="#">Upload Picture</a></li>
+                                                <li><a href="#">Blog</a></li>
+											  </ul>
+                                         </div>
+                                      </ul>
+                                      
+                                    </div>
+                                  </div>
+							</nav>
+                            
+                        </div>
+
+                        
+
+                </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+    
+    <div class="page-indicater">
+    	<div class="container">
+        	<ul>
+            	<a href="#"><li class="active">Home  /</li></a>
+                <a href="#"><li>Meet People</li></a>
+            </ul>
+            
+            <p>Serious dating with CanDoBetter, Your can find your perfect match is just a click away</p>
+            
+        </div>
+    </div>
+    
+    <div class="mainContent">
+    	<div class="container">
+        	<div class="row">
+            	
+                <div class="col-lg-3 col-md-4">
+                	<div class="left-bar">
+                    	<h1>Welcome <span>User Name!</span></h1>
+                        
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               <h5><i class="fa-solid fa-heart mb-icon"></i>Meet</h5>
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="mb">
+                                                        <li>Your Messages Your Double-Matches</li>
+                                                        <li>Said Yes to You</li>
+                                                        <li>You Said Yes</li>
+                                                        <li>Received Gifts</li>
+                                                </ul>
+                              </div>
+                            </div>
+                          </div>
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5><i class="fa-solid fa-star mb-icon"></i>Favourite</h5>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="mb">
+                            	<li>My Favorite</li>
+                                <li>Who Favorited Me</li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h5><i class="fa-solid fa-gear mb-icon"></i>Account Settings</h5>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="mb">
+                            	<li>Create New Set</li>
+                                <li>Update Your Profile</li>
+                                <li>Change Your Profile</li>
+                                <li>Change Your Password</li>
+                                <li>View All My Sets</li>
+                                <li>Upload Profile Image</li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+             <h5><i class="fa-solid fa-bullhorn mb-icon"></i>Announcement</h5>
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="mb">
+                            	<li>Rate your date</li>
+                                <li>Ask Dr. J D Block</li>
+                                <li>Rate Your Date</li>
+                                <li>Ask Janice</li>
+                                <li>Magazine</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</div>	
+				<div class="menuBar">
+                        <ul class="mb">
+                        <h5><i class="fa-solid fa-heart mb-icon"></i>Meet</h5>
+                            	<li>Your Messages Your Double-Matches</li>
+                                <li>Said Yes to You</li>
+                                <li>You Said Yes</li>
+                                <li>Received Gifts</li>
+                        </ul>
+                        
+                        <ul class="mb">
+                        <h5><i class="fa-solid fa-star mb-icon"></i>Favourite</h5>
+                            	<li>My Favorite</li>
+                                <li>Who Favorited Me</li>
+                        </ul>
+                        
+                        <ul class="mb">
+                        <h5><i class="fa-solid fa-gear mb-icon"></i>Account Settings</h5>
+                            	<li>Create New Set</li>
+                                <li>Update Your Profile</li>
+                                <li>Change Your Profile</li>
+                                <li>Change Your Password</li>
+                                <li>View All My Sets</li>
+                                <li>Upload Profile Image</li>
+                        </ul>
+                        
+                        <ul class="mb">
+                        <h5><i class="fa-solid fa-bullhorn mb-icon"></i>Announcement</h5>
+                            	<li>Rate your date</li>
+                                <li>Ask Dr. J D Block</li>
+                                <li>Rate Your Date</li>
+                                <li>Ask Janice</li>
+                                <li>Magazine</li>
+                        </ul>
+                    </div>    
+                    </div>
+                </div>
+                
+                <div class="col-lg-9 col-md-8">
+
+                  <div class="rightContent">
+                    <div class="quick-search">
+                      <h1>Quick Search</h1>
+                    </div>
+                    <div class="slider">
+                        <div class="demo">
+                          <div class="item">            
+                              <div class="clearfix" style="max-width:880px;">
+                                  <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                                      <li> 
+                                          <div class="personDetails">
+                                            <h3>Hanna Marcovick (<span class="age">20</span> / <span class="status">Single</span>)</h3>
+                                            <ul>
+                                            	<li><i class="fa-solid fa-location-dot detailicon"></i>United States</li>
+                                                <li><i class="fa-solid fa-heart detailicon"></i>Add to Favourites</li>
+                                                <li><i class="fa-solid fa-gift detailicon"></i>Send a Gift</li>
+                                            </ul>
+                                          </div>
+                                          <div class="person-img">
+                                          	<img src="images/girl.png" />
+                                            
+                                            <div class="meet-opt">
+                                          	<h4>Do you want to meet me?</h4>
+                                            <h6>Choose <Span>“Yes”</Span> OR <span>“No”</span></h6>
+                                            <div class="opt-btn">
+                                            	<button class="yes-btn" type="button">yes</button>
+                                                <button class="no-btn" type="button">no</button>
+                                            </div>
+                                          </div>
+                                            
+                                            
+                                          </div>
+                                          </li>
+                                      <li> 
+                                          <div class="personDetails">
+                                            <h3>Hanna Marcovick (<span class="age">20</span> / <span class="status">Single</span>)</h3>
+                                            <ul>
+                                            	<li><i class="fa-solid fa-location-dot detailicon"></i>United States</li>
+                                                <li><i class="fa-solid fa-heart detailicon"></i>Add to Favourites</li>
+                                                <li><i class="fa-solid fa-gift detailicon"></i>Send a Gift</li>
+                                            </ul>
+                                          </div>
+                                          <div class="person-img">
+                                          	<img src="images/girl.png" />
+                                            
+                                            <div class="meet-opt">
+                                          	<h4>Do you want to meet me?</h4>
+                                            <h6>Choose <Span>“Yes”</Span> OR <span>“No”</span></h6>
+                                            <div class="opt-btn">
+                                            	<button class="yes-btn" type="button">yes</button>
+                                                <button class="no-btn" type="button">no</button>
+                                            </div>
+                                          </div>
+                                            
+                                            
+                                          </div>
+                                          </li>
+                                      <li> 
+                                          <div class="personDetails">
+                                            <h3>Hanna Marcovick (<span class="age">20</span> / <span class="status">Single</span>)</h3>
+                                            <ul>
+                                            	<li><i class="fa-solid fa-location-dot detailicon"></i>United States</li>
+                                                <li><i class="fa-solid fa-heart detailicon"></i>Add to Favourites</li>
+                                                <li><i class="fa-solid fa-gift detailicon"></i>Send a Gift</li>
+                                            </ul>
+                                          </div>
+                                          <div class="person-img">
+                                          	<img src="images/girl.png" />
+                                            
+                                            <div class="meet-opt">
+                                          	<h4>Do you want to meet me?</h4>
+                                            <h6>Choose <Span>“Yes”</Span> OR <span>“No”</span></h6>
+                                            <div class="opt-btn">
+                                            	<button class="yes-btn" type="button">yes</button>
+                                                <button class="no-btn" type="button">no</button>
+                                            </div>
+                                          </div>
+                                            
+                                            
+                                          </div>
+                                          </li>
+                                      <li> 
+                                          <div class="personDetails">
+                                            <h3>Hanna Marcovick (<span class="age">20</span> / <span class="status">Single</span>)</h3>
+                                            <ul>
+                                            	<li><i class="fa-solid fa-location-dot detailicon"></i>United States</li>
+                                                <li><i class="fa-solid fa-heart detailicon"></i>Add to Favourites</li>
+                                                <li><i class="fa-solid fa-gift detailicon"></i>Send a Gift</li>
+                                            </ul>
+                                          </div>
+                                          <div class="person-img">
+                                          	<img src="images/girl.png" />
+                                            
+                                            <div class="meet-opt">
+                                          	<h4>Do you want to meet me?</h4>
+                                            <h6>Choose <Span>“Yes”</Span> OR <span>“No”</span></h6>
+                                            <div class="opt-btn">
+                                            	<button class="yes-btn" type="button">yes</button>
+                                                <button class="no-btn" type="button">no</button>
+                                            </div>
+                                          </div>
+                                            
+                                            
+                                          </div>
+                                          </li>
+                                      
+                                  </ul>
+                              </div>
+                          </div>
+                      
+                      </div>	
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+
+
+                
+
+            </div>
+        </div>
+    </div>
+    
+        <div class="offerSlot">
+          <div class="container">
+            <h5><span>Sign up</span> for the <span>Premium Members Version</span> and receive a free introduction to our TV producer and winner of 5 Emmy Awards. Here is your chance to become a star - share your ideas and dreams with us! <span>CDB Premium</span> subscription.</h5>
+          </div>
+        </div>
+    
+        <div class="untitledSlot">
+          <div class="container">
+          	<div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="ofr">
+                    <h4>Girl who can do better?</h4>
+                    <ul>
+                      <li><img src="images/girl1.jpg" class="girlz"></li>
+                      <li><img src="images/girl2.jpg" class="girlz"></li>
+                      <li><img src="images/girl3.jpg" class="girlz"></li>
+                    </ul>
+                    <button class="ofr-btn" type="button">See More</button>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="start">
+                    <button class="mid-ofr-btn" type="button">Lets get Started!</button>
+                  </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-4">
+                  <div class="ofr">
+                    <h4>Guys who can do better?</h4>
+                    <ul>
+                      <li><img src="images/men1.jpg" class="menz"></li>
+                      <li><img src="images/men2.jpg" class="menz"></li>
+                      <li><img src="images/men3.jpg" class="menz"></li>
+                    </ul>
+                    <button class="ofr-btn" type="button">See More</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="footerSlot">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-3 col-md-5">
+                    	<div class="aboutSection">
+                        	<h3>About Us</h3>
+                            <p>Here you can put your customized short information, Great</p>
+                            <ul>
+                            	<li><i class="fa-solid fa-envelope f-icon"></i>yourname@youremail.xom</li>
+                                <li><i class="fa-solid fa-phone f-icon"></i>+91 12345 67890</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                    	<div class="featureSlot">
+                        <h3>Features</h3>
+                        	<ul class="ul-1">
+                            	<li>Most Voted For </li>
+                                <li>Meet People </li>
+                                <li>Who CanDoBetter </li>
+                                <li>Messaging</li>
+                            </ul>
+                            <ul class="ul-2">
+                            	<li>Virtual Gifts </li>
+                                <li>Facebook Connectivity</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-5">
+                    	<div class="otherSlot">
+                            <h3>Other Links</h3>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Contact Us </li>
+                                <li>Terms Of Service </li>
+                                <li>In The News</li>
+                             </ul>
+                         </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4">
+                    	<div class="social-media">
+                        	<h3>Stay in touch</h3>
+                            <ul>
+                            	<li><i class="fa-brands fa-facebook-f"></i></li>
+                                <li><i class="fa-brands fa-twitter"></i></li>
+                                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

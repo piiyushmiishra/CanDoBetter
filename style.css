@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+body { color:#fff}
+
+.topSlot { padding:8px 0; margin:0px auto; background:#210b22; border-bottom: 1px solid #534462; height: 50px;}
+
+.welcomeBar { padding:0; margin:0px auto; height:30px }
+.welcomeBar h4 { display:inline; font-size:12px; font-weight:300}
+
+.rightBar { padding:0; margin:0px auto; float:right}
+button.fb-btn { padding: 0px; border: none; border-radius: 30px; background:#501e53; color:#fff; width:180px}
+i.fa-brands.fa-facebook-f.top {background: #fff; color: #501e53; padding: 10px 15px; border-radius: 20px 0px 0px 20px; margin: 0px 0px; float:left}
+.fb-btn span { padding: 5px 0px; display: inline-block;}
+.rightBar ul { padding:0; margin:0px auto; list-style:none; float:right}
+.rightBar ul li { padding:0; margin:0px auto; display:inline-block}
+
+.headerSlot {  padding:25px; background:url(images/top-bg.jpg) center top no-repeat; background-size:cover}
+.mainHeader {padding:0; margin:0PX auto; }
+.LOGO { padding:0; margin:0PX auto}
+
+.menuGLOBE { float:right; }
+
+.taskbar { padding:0; margin:0px auto}
+.taskbar ul { padding:0; margin:0px auto; list-style:none;  }
+.taskbar ul li { padding:0px; margin:0px auto; display:inline-block; text-transform:uppercase; font-size:14px; border-right: 1px solid #7f5682}
+.taskbar ul li:nth-child(6) { border-right:none}
+.taskbar ul li a { padding:10px 15px; margin:0px auto;  border:1px solid transparent; color:#fff; text-decoration:none  }
+.taskbar ul li a:hover { background:#000000; color:#fff; border:1px solid #7f5682;  border-radius: 50px}
+.taskbar ul li.active a {background:#000000; color:#fff; border:1px solid #7f5682; border-radius: 20px }
+
+.page-indicater { padding:5px; margin:0px auto; background:#210b22; border-top:1px solid #534462}
+.page-indicater ul { padding:0px; margin:0px auto; list-style:none; float:left}
+.page-indicater ul li { padding:0px; margin:0px auto; font-size:13px; color:#fff; text-decoration:none; display:inline-block}
+.page-indicater ul li.active { color:#9b9b9b}
+.page-indicater p { padding:0; margin:0px auto; text-align:right; font-weight:600; font-size:13px}
+
+.mainContent { padding:0px; margin:0px auto; background:#f8f8f8}
+
+.left-bar { padding-bottom: 30px; margin:20px auto; background:#252933; border-radius:5px}
+.left-bar h1 { padding:20px; font-size:18px; color:#fffefe; background:#1c202b; border-radius:5px}
+.left-bar h1 span { color:#ff2274; font-weight:lighter}
+
+
+ul.mb { padding:20px 0; margin:0px 30px; list-style:none; border-bottom:1px dotted #dcdce0}
+.mb h5 { padding:0px; margin:0px auto; font-size:16px}
+i.fa-solid.mb-icon { padding: 0px 8px 0 0; color:#dcdce0; font-size:14px}
+.mb li { padding:3px 22px; font-size:14px; color:#dcdce0}
+
+
+.rightContent { padding: 0px; margin: 20px auto; background: url(images/map-bg.png) center 10rem no-repeat; background-size: contain;}
+.quick-search { padding:20px 30px; margin: 0px auto; background-color: #de166a; border-radius:5px; }
+.quick-search h1 { padding:0; margin: 0px auto; font-size: 32px; font-weight: 100;  }
+
+.personDetails { padding: 0; margin: 0px auto;}
+.personDetails h3 { font-size: 34px; color: #474d5d; font-weight: 100; border-bottom: 1px solid #000;}
+.personDetails ul { padding:0; margin:10px auto}
+.personDetails ul li { padding-right: 60px; margin: 0px auto; color:#000; display:inline-block; font-size:18px; font-weight:100}
+.detailicon { padding-right: 10px; color:#40454f}
+span.age { color: #00abdf; font-weight: 400;}
+span.status { color: #ff2274; font-weight: 400;}
+
+.person-img { margin:80px auto; position:relative}
+.person-img img { width: 535px;}
+.meet-opt { background:#252933; color:#FFF; width: 280px; padding: 20px 20px; position: absolute; top: 30%; border-radius: 5px; right:5%}
+.meet-opt:before {border-left: 30px solid transparent; border-right: 0px solid transparent; border-top: 40px solid #252933; content: ""; position: absolute; left: -29px; top: 15px;}
+.meet-opt h4 { font-size:30px; text-align:center}
+.meet-opt h6 { font-size:20px; text-align:center; font-weight:100}
+.meet-opt h6 span {font-weight:600}
+
+.opt-btn { text-align:center; position:absolute; left: 20%;}
+.yes-btn { padding:20px; margin-right: 15px; background:#ff2274; color:#fff; border:3px solid #fff; border-radius: 50px; font-size:20px; font-weight:bold}
+.no-btn { height: 72px; width: 72px; margin:0px auto; background:#00abdf; color:#fff; border:3px solid #fff; border-radius: 50px; font-size:20px; font-weight:bold}
+
+.slider {padding: 0px; margin: 20px auto;}
+
+
+.offerSlot { padding: 0px; margin: 0px auto; background-color: #de166a; }
+.offerSlot h5 { padding: 20px 0px; margin: 0px auto; font-size: 18px; font-weight: 100; text-align: center; }
+.offerSlot h5 span { font-weight: 500; }
+
+
+.untitledSlot {padding: 0; margin: 0px auto; background: #ededed; border-top: 2px solid #e3e3e3}
+.ofr {padding: 15px 0; margin: 0px auto; text-align: center; }
+.ofr h4 {padding: 20px; margin: 0px auto; color: #000; font-size: 18px;}
+.ofr ul {padding: 0; margin: 0px auto; list-style: none;}
+.ofr ul li {padding: 0 5px; margin: 0px auto; display: inline;}
+
+.ofr-btn {padding: 0; margin: 20px auto; background: none; border: 2px solid #ef2671; font-size: 13px; width: 110px; height: 32px; border-radius: 50px;}
+
+.start {padding: 0; margin: 0px auto; background: url(images/mid-ofr.jpg) center top no-repeat; float: right; height: 300px; width: 100%; background-size: cover; position:relative}
+.mid-ofr-btn  { padding:0; margin:0px auto; background:#de166a; border:3px solid #fff; color:#fff; width:176px; height:38px; border-radius:50px; position:absolute; left:26%; bottom:5%}
+
+
+.footerSlot { padding:30PX; margin:0PX auto; background:#252933;}
+
+.aboutSection { padding:0px; margin:0px auto; color:#ededed}
+.aboutSection h3 { padding:0px; margin:0px auto; font-size:20px }
+.aboutSection p { padding:0px; margin:20px auto; font-size:16px }
+.aboutSection ul { padding:0px; margin:20px auto; list-style:none  }
+.aboutSection ul li { padding:0px; margin:0px auto; font-size:16px }
+.f-icon { padding-right:20px}
+
+.featureSlot { padding:0px; margin:0px auto; color:#ededed}
+.featureSlot h3 { padding:0px; margin:0px auto; font-size:20px }
+.featureSlot ul { padding:0px; margin:0px 0px; list-style:none; float:left  }
+ul.ul-1 { padding:0; margin-right:60px; float:left}
+ul.ul-2 { padding:0; margin:0px auto; float:right}
+.featureSlot ul li { padding-bottom:6px; margin:0px auto; font-size:16px }
+
+.otherSlot { padding:0px; margin:0px auto; color:#ededed}
+.otherSlot h3 { padding:0px; margin:0px auto; font-size:20px }
+.otherSlot ul { padding:0px; margin:20px 50px 0px 0px; list-style:none; float:left  }
+.otherSlot ul li { padding-bottom:6px; margin:0px auto; font-size:16px }
+
+.social-media { padding:0px; margin:0px auto; color:#ededed}
+.social-media h3 { padding:0px; margin:0px auto; font-size:20px }
+.social-media ul { padding:0px; margin:20px 0px 0px 0px; list-style:none; float:left  }
+.social-media ul li { padding:8px 15px 8px 16px; margin:0px 10px 0 0; font-size:24px; display: inline-block;  background-color: #707378;  color: #000; border-radius: 50px; }
+
+.lSAction > a { background:#000}
+
+.accordion { display:none}
+.accordion-header button { outline:none	; box-shadow:none!important}
+.accordion-button { background:#252933; color:#fff}
+.accordion-button:not(.collapsed) {background:#252933; color:#fff }
+.accordion-body {  background:#252933; border-top:2px solid #4b4b4b}
+.accordion-item { border:1px solid #999999}
+.accordion-item h5 { font-size:16px}
+.accordion-button::after { background-image:url(images/plus.png); }
+.accordion-button:not(.collapsed)::after { background-image:url(images/minus.png);}
+
+
+
+
+
+@media screen and (max-width:992px) {
+
+.welcomeBar {position: relative;}
+.LOGO { width:200px}
+
+.headerSlot { padding:10px}
+
+.menuGLOBE { float:right}
+
+.navbar-collapse {position: absolute; width: 100%; left: 0px; top: 58px;}
+.navbar-nav me-auto mb-2 mb-lg-0 { display:block}
+
+
+.left-bar { padding-bottom: 30px; margin:20px auto; background:#252933; border-radius:5px}
+.left-bar h1 { padding:16px; font-size:18px; color:#fffefe; background:#1c202b; border-radius:5px}
+.left-bar h1 span { color:#ff2274; font-weight:lighter}
+
+
+ul.mb { padding:15px 0; margin:0px 20px; list-style:none; border-bottom:1px dotted #dcdce0}
+.mb h5 { padding:0px; margin:0px auto; font-size:16px}
+i.fa-solid.mb-icon { padding: 0px 8px 0 0; color:#dcdce0; font-size:14px}
+.mb li { padding:3px 12px; font-size:14px; color:#dcdce0}
+
+
+
+
+.rightContent { padding: 0px; margin: 20px auto; background: url(images/map-bg.png) center 11rem no-repeat; background-size: contain;}
+.quick-search { padding:10px 15px; margin: 0px auto; background-color: #de166a; border-radius:5px; }
+.quick-search h1 { padding:0; margin: 0px auto; font-size: 25px; font-weight: 100;  }
+
+.personDetails { padding: 0; margin: 0px auto;}
+.personDetails h3 { font-size: 28px; color: #474d5d; font-weight: 100; border-bottom: 1px solid #000;}
+.personDetails ul { padding:0; margin:10px auto}
+.personDetails ul li { padding-right: 38px; margin: 0px auto; color:#000; display:inline-block; font-size:15px; font-weight:100}
+.detailicon { padding-right: 10px; color:#40454f}
+span.age { color: #00abdf; font-weight: 400;}
+span.status { color: #ff2274; font-weight: 400;}
+
+.person-img { margin:0px auto; position:relative}
+.person-img img { width: 335px;}
+
+.meet-opt { background:#252933; color:#FFF; width: 230px; padding: 20px 10px; position: absolute; top:50%; border-radius: 5px; right:0%}
+.meet-opt:before {border-left: 30px solid transparent; border-right: 0px solid transparent; border-top: 40px solid #252933; content: ""; position: absolute; left: -20px; top: 10px;}
+.meet-opt h4 { font-size:20px; text-align:center}
+.meet-opt h6 { font-size:18px; text-align:center; font-weight:100}
+.meet-opt h6 span {font-weight:600}
+
+.opt-btn { text-align:center; position:absolute; left: 20%;}
+.yes-btn { padding:10px; margin-right: 15px; background:#ff2274; color:#fff; border:3px solid #fff; border-radius: 50px; font-size:18px; font-weight:bold}
+.no-btn { height: 52px; width: 52px; margin:0px auto; background:#00abdf; color:#fff; border:3px solid #fff; border-radius: 50px; font-size:18px; font-weight:bold}
+
+.slider {padding: 0px; margin: 20px auto;}
+
+.lSAction { display:none!important}
+
+
+
+
+
+.offerSlot h5 { padding: 20px 0px; margin: 0px auto; font-size: 16px;   }
+
+
+.untitledSlot {padding: 0; margin: 0px auto; background: #ededed; border-top: 2px solid #e3e3e3}
+.ofr {padding: 15px 0; margin: 0px auto; text-align: center; }
+img.girlz { width:65px}
+img.menz { width:65px}
+.ofr h4 {padding: 10px; margin: 0px auto; color: #000; font-size: 16px;}
+.ofr ul {padding: 0; margin: 0px auto; list-style: none;}
+.ofr ul li {padding: 0 0px; margin: 0px auto; display: inline-block;}
+
+.ofr-btn {padding: 0; margin: 20px auto; background: none; border: 2px solid #ef2671; font-size: 13px; width: 110px; height: 32px; border-radius: 50px;}
+
+.start {padding: 0; margin: 0px auto; background: url(images/mid-ofr.jpg) center top no-repeat; float: right; height: 200px; width: 100%; background-size: contain; position:relative}
+.mid-ofr-btn  { padding:0; margin:0px auto; background:#de166a; border:3px solid #fff; color:#fff; width:176px; height:38px; border-radius:50px; left: 10%; bottom: -65%; position: inherit;}
+
+
+
+ul.ul-2 { padding:0; margin:0px auto; float:left}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) { 
+
+.welcomeBar { padding:10px 0; margin:0px auto; height:auto }
+.welcomeBar h4 { display:inline; font-size:14px; font-weight:300}
+
+.rightBar { padding:0; margin:0px auto; float:right}
+button.fb-btn { padding: 0px; border: none; border-radius: 30px; background:#501e53; color:#fff; display:none}
+.rightBar ul { padding:0; margin:0px auto; list-style:none; float:right}
+.rightBar ul li { padding:0; margin-right:10px; display:inline-block; font-size: 14px}
+
+.mainHeader {position: relative;}
+a.logo { float:left}
+.LOGO { width:150px}
+
+.menuGLOBE { float:right;  }
+.navbar navbar-expand-lg bg-body-tertiary { position:static}
+
+.taskbar { margin:0px 0 0 0}
+.taskbar ul li { padding:10px 0px;  display: block; text-align: left;}
+.navbar-collapse {position: absolute; width: 100%; left: 0%; top: 58px; background: #210b22;}
+
+.page-indicater { padding:10px 0; margin:0px auto; background:#210b22; border-top:1px solid #534462}
+.page-indicater ul { padding:10px 0px; margin:0px auto; list-style:none; float:none; border-bottom: 1px solid #7f5682;}
+.page-indicater ul li { padding:0px; margin:0px auto; font-size:14px; color:#fff; text-decoration:none; display:inline-block}
+.page-indicater ul li.active { color:#9b9b9b}
+.page-indicater p { padding:10px 0; margin:0px auto; text-align:left; font-weight:600; font-size:14px}
+
+
+
+
+.untitledSlot {padding: 0; margin: 0px auto; background: #ededed; border-top: 2px solid #e3e3e3}
+.ofr {padding: 15px 0; margin: 0px auto; text-align: center; }
+img.girlz { width:95px}
+img.menz { width:95px}
+.ofr h4 {padding: 10px; margin: 0px auto; color: #000; font-size: 16px;}
+.ofr ul {padding: 0; margin: 0px auto; list-style: none;}
+.ofr ul li {padding: 0 0px; margin: 0px auto; display: inline-block;}
+
+.ofr-btn {padding: 0; margin: 20px auto; background: none; border: 2px solid #ef2671; font-size: 13px; width: 110px; height: 32px; border-radius: 50px;}
+
+.start {padding: 0; margin: 0px auto; background: url(images/mid-ofr.jpg) center top no-repeat; float: right; height: 200px; width: 100%; background-size: contain; position:relative}
+.mid-ofr-btn  { padding:0; margin:0px auto; background:#de166a; border:3px solid #fff; color:#fff; width:150px; height:35px; border-radius:50px; left: 28%; bottom: 0%; position: absolute;}
+
+
+.footerSlot { padding:30PX; margin:0PX auto; background:#252933; text-align: center;  }
+
+.aboutSection { text-align:center}
+.aboutSection h3 { padding:0px; margin:0px auto; font-size:20px }
+.aboutSection p { padding:0px; margin:20px auto; font-size:16px }
+.aboutSection ul { padding:0px; margin:20px auto; list-style:none  }
+.aboutSection ul li { padding:0px; margin:0px auto; font-size:16px }
+.f-icon { padding-right:10px}
+
+
+
+.featureSlot { padding:0px; margin:0px auto; color:#ededed; text-align:center;}
+.featureSlot h3 { padding:0 0 20px 0; margin:0px auto; font-size:20px }
+.featureSlot ul { padding:0px; margin:0px 0px; list-style:none;   }
+ul.ul-1 { padding:0; margin:0px 6rem; }
+ul.ul-2 { padding:0; margin:0px 5.2rem; }
+.featureSlot ul li { padding-bottom:6px; margin:0px auto; font-size:16px }
+
+.otherSlot { padding:0px; margin:20px auto; color:#ededed}
+.otherSlot h3 { padding:0px; margin:0px auto; font-size:20px }
+.otherSlot ul { padding:0px; margin:20px 0px 0px 0px; list-style:none; float: none;   }
+.otherSlot ul li { padding-bottom:6px; margin:0px auto; font-size:16px }
+
+.social-media { padding:0px; margin:0px auto; color:#ededed}
+.social-media h3 { padding:0px; margin:0px auto; font-size:20px }
+.social-media ul { padding:0px; margin:20px 0px 0px 0px; list-style:none; float: none;   }
+.social-media ul li { padding:8px 15px 8px 16px; margin:0px 10px 0 0; font-size:24px; display: inline-block;  background-color: #707378;  color: #000; border-radius: 50px; }
+
+.accordion { display:block}
+.menuBar { display:none}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
